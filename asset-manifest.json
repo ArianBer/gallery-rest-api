@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ArianBer/gallery-rest-api/static/css/main.ef4920a4.chunk.css",
-    "main.js": "/ArianBer/gallery-rest-api/static/js/main.7632f3cf.chunk.js",
-    "main.js.map": "/ArianBer/gallery-rest-api/static/js/main.7632f3cf.chunk.js.map",
+    "main.js": "/ArianBer/gallery-rest-api/static/js/main.3f0c922d.chunk.js",
+    "main.js.map": "/ArianBer/gallery-rest-api/static/js/main.3f0c922d.chunk.js.map",
     "runtime-main.js": "/ArianBer/gallery-rest-api/static/js/runtime-main.2e92b1bc.js",
     "runtime-main.js.map": "/ArianBer/gallery-rest-api/static/js/runtime-main.2e92b1bc.js.map",
     "static/js/2.9b76e166.chunk.js": "/ArianBer/gallery-rest-api/static/js/2.9b76e166.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2e92b1bc.js",
     "static/js/2.9b76e166.chunk.js",
     "static/css/main.ef4920a4.chunk.css",
-    "static/js/main.7632f3cf.chunk.js"
+    "static/js/main.3f0c922d.chunk.js"
   ]
 }
