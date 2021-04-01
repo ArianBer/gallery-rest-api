@@ -1,38 +1,105 @@
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .header img{
+  width: 250px;
+  padding-top: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .header .title{
+  padding: 40px 0px;
+  font-size: 22px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .albums{
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:  3px 3px 5px 6px #f2f2f2; 
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+.App .albums .album{
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f2f2f2;
+}
+.App .albums .album a{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000;
+  text-decoration: none;
+}
+.App .albums .album a:hover{
+  text-decoration: none;
+  color: #000;
+}
+.App .albums .album .id{
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow:  3px 3px 5px 6px #f2f2f2; 
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.App .albums .album .name{
+  padding-left: 15px;
+}
+.App .albums .album:nth-child(odd){
+  border-right: 2px solid #f2f2f2;
 }
 
-.App-link {
-  color: #61dafb;
+.App .albums .album:nth-child(even){
+  padding-left: 30px;
+}
+.App .photos ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+.App .photos ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.App .photos ul li{
+  width: 33.3%;
+}
+.App .photos ul li:nth-child(12n+4),
+.App .photos ul li:nth-child(12n+6){
+  width: 20%;
+}
+.App .photos ul li:nth-child(12n+5){
+  width: 60%;
+}
+.App .photos ul li:nth-child(12n+10),
+.App .photos ul li:nth-child(12n+12){
+  width: 40%;
+}
+.App .photos ul li:nth-child(12n+11){
+  width: 20%;
+}
+.App .photos ul li .image img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.App .photos ul li .name{
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
